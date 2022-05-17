@@ -74,7 +74,9 @@ public class Softeer_L2_회의실예약 {
 			} else {
 				System.out.println("Not available");
 			}
-			System.out.println("-----");
+			if(i < room.length - 1) {
+				System.out.println("-----");
+			}
 		}
 	}
 
